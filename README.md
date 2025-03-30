@@ -1,2 +1,2 @@
 README.md
-https://github.com/Elizaveta-YP/ono-tebe-nado-fd
+https://github.com/Elizaveta-YP/ono-tebe-nado
