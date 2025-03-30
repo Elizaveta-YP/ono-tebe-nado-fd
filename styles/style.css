@@ -75,18 +75,18 @@ body {
      padding-right: 17px;
      padding-left: 4px;
      white-space: nowrap;
- }*/
+ }
 
  /*логотип*/
 .logo_black {
     display: flex;
-    background-image: url(../images/logo-black.svg);
 }
 
 .logo_black_position {
     display: flex;
     padding-top: 93px;
 }
+
 /*адресс*/
 address.contacts {
     font-size: 18px;
@@ -129,7 +129,7 @@ address.contacts {
 
 /*Заголовок*/
 
-.content_title {
+.cover_title {
     display: flex;
     width: 1100px;
     flex-direction: column;
@@ -143,21 +143,21 @@ address.contacts {
 .text_left {
     display: flex;
     justify-content: start;
-    padding-left: 26px;
+    padding-left: 50px;
 }
 
 .text_center {
     display: flex;
     justify-content: center;
-    padding-top: 8px;
-    padding-left: 13px;
+    padding-top: 16px;
+    padding-left: 27px;
 }
 
 .text_right {
     display: flex;
     justify-content: end;
-    padding-top: 10px;
-    padding-right: 10px;
+    padding-top: 16px;
+    padding-right: 20px;
 }
 
 /*контейнер для p и кнопки*/
@@ -382,7 +382,8 @@ address.contacts {
 }
 
 .about {
-    display: flex column;
+    display: flex;
+    flex-direction: column;
     min-width: 710px;
     margin-top: 102px;
     margin-left: 70px;
